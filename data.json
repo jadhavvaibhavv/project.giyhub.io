@@ -1,0 +1,29 @@
+[
+    {
+        "img":"./image/global.png",
+        "name":" GLOBAL PLAN",
+        "desc":"GLOBAL SERVICE Be globally connected. The possibilities are endless with cargoTon.",  
+        "btn":"Purchase" ,
+        "price" : "$250" 
+    },
+    {
+        "img":"./image/plan.png",
+        "name":"PREMIUM PLAN",
+        "desc":"DOMESTIC SERVICE Plan your next big. Let us bring your products to the world.",
+        "btn":"Purchase",
+        "price" : "$150" 
+
+    },
+    {
+        "img":"./image/back.png",
+        "name":"DOMESTIC PLAN",
+        "desc":"DOMESTIC SERVICE Making transportation fast and safe. The logistics company you can rely on.",
+        "btn":"Purchase",
+        "price" : "$100" 
+
+    }
+]
+
+
+
+

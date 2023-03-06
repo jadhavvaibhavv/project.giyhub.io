@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./image/android-chrome-512x512.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./jquery-latest.js"></script>
+    <script src="./xmlscript.js"></script>
+   
+    <script src="./validation.js"></script>
+    <title>Xpress Base </title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./image/yellow.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark f1" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#"><i class="fa fa-house"></i>&nbsp;&nbsp;Home</a></li>
+                    <li><a href="#books"><i class="fa-solid fa-book"></i>&nbsp;&nbsp;Services</a></li>
+                    <li><a href="#facilities"><i class="fa-solid fa-pen"></i>&nbsp;&nbsp;facilities</a></li>
+                    <!-- <li><a href="#timing"><i class="fa-regular fa-clock"></i>&nbsp;&nbsp;Price</a></li> -->
+                    <li><a href="#community"><i class="fa-solid fa-users"></i>&nbsp;&nbsp;community</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user"></i>&nbsp;&nbsp;About</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars f1" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1><b><i>XPRESS BASE</i></b></h1>
+            <p>Our company has grown into a dynamic force in transportation across the world. <br> Equipped with state-of-the-art technologies, warehouse services, </p>
+            <button class="btn btn-outline-light"><a href="#demand" class="btn-links"><i
+                        class="fa-solid fa-book"></i></i>&nbsp;&nbsp;Discover More</a></button>
+        </div>
+
+    </section>
+
+    <section class="books" id="books">
+        <h1 data-aos="fade-right" class="font1">Our Services</h1>
+        <p data-aos="fade-right" class="font2">Our motto is speed</p>
+        <button class="btn btn-outline-primary rounded-pill align-item-center" id="btn1"> -> </button>
+        <button class="btn btn-outline-primary rounded-pill" id="btn2">
+            <- </button>
+                <div class="row justify-content-between mt-5 book-data" id="book-data1" data-aos="fade-left"
+                    data-aos-offset="300">
+
+                </div>
+                <div class="row justify-content-between mt-5 book-data" id="book-data2" data-aos="fade-left"
+                    data-aos-offset="300">
+
+                </div>
+    </section>
+
+    <section class="facilities" id="facilities">
+        <h1 data-aos="zoom-out" data-aos-offset="300" class="font1">Our Facilities</h1>
+        <p data-aos="zoom-out" data-aos-offset="300" class="font2">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quasi, tempora.</p>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12 facilities-col" data-aos="fade-right" data-aos-offset="300">
+                <img src="./image/07.jpg" class="img-fluid" height="255px" alt="iamge">
+                <h3>Container elevatior</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, debitis?</p>
+            </div>
+            <div class=" col-lg-4 col-md-4 col-sm-12 facilities-col" data-aos="fade-up" data-aos-offset="300">
+                <img src="image/05.jpg" class="img-fluid" height="255px" alt="iamge">
+                <h3>Cargo plane</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, debitis?</p>
+            </div>
+            <div class=" col-lg-4 col-md-4 col-sm-12 facilities-col" data-aos="fade-left" data-aos-offset="300">
+                <img src="image/12.jpg" class="img-fluid" height="255px" alt="iamge">
+                <h3>Container </h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, debitis?</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="community" id="community">
+        <h1 data-aos="zoom-in" data-aos-offset="300" class="font1">Our community</h1>
+        <p data-aos="zoom-in" data-aos-offset="300" class="font2">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Quasi, tempora.</p>
+            <div class="row m-3 d-flex">
+                <div class="col-lg-4 col-md-4 col-sm-12 community-col" data-aos="zoom-out" data-aos-offset="300">
+                    <img src="./image/person1.jpg" class="img-fluid" height="100px" width="100px" alt="staff">
+                    <h3>Franklin Richard</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptatem!</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 community-col" data-aos="zoom-out" data-aos-offset="300">
+                    <img src="./image/person2.jpg" class="img-fluid" height="100px" width="100px" alt="staff">
+                    <h3>Sam wilson</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptatem!</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 community-col" data-aos="zoom-out" data-aos-offset="300">
+                    <img src="./image/person3.jpg" class="img-fluid" height="70" width="100px" alt="staff">
+                    <h3>Scott lang</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, voluptatem!</p>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="price">
+                <h1 data-aos="zoom-in" data-aos-offset="300" class="font1">Our Terms</h1>
+                <p data-aos="zoom-out" data-aos-offset="300" class="font2">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Quasi, tempora.</p>
+                <div class="card-group">
+                    <div class="row row-cols-1 row-cols-md-3 g-4" id="tablebody">
+           
+                      </div>
+                </div>
+        </section>
+
+    <section class="demand bg-light" id="demand">
+        <h1 class="font1">Feedback page</h1>
+        <p  class="font2">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Consequatur, cum.</p>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 m-auto d-block mb-5 bg-light p-3 shadow">
+    
+                    <form action="" class="form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" name="Name" id="n1" placeholder="Enter Name">
+                            <span class="text-danger" id="namecheck"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Number" class="form-label">Phone Number:</label>
+                            <input type="text" class="form-control" name="Number" id="number" placeholder="enter phone number">
+                            <span class="text-danger" id="numbercheck"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="Email" class="form-label">E-mail:</label>
+                            <input type="text" class="form-control" name="Email" id="email" placeholder="enter a email">
+                            <span class="text-danger" id="emailcheck"></span>
+                        </div>
+                        <div class="row">
+    
+                                <div class="form-group">
+                                    <label for="Bookno" class="form-label">track no</label>
+                                    <input type="text" class="form-control" name="Bookno" id="bookno"
+                                        placeholder="enter track No">
+                                    <span class="text-danger" id="booknocheck"></span>
+
+        
+                                <div class="form-group">
+                                    <label for="Book" class="form-label">Services</label>
+                                    <input type="text" name="Book" id="book" class="form-control" placeholder="enter Services">
+                                    <span class="text-danger" id="bookcheck"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="Address" class="form-label">Adress:</label>
+                            <textarea name="Address" id="address" cols="15" rows="5" class="form-control"></textarea>
+                            <span class="text-danger" id="addresscheck"></span>
+                        </div>
+                        <button class="mt-4 mb-4 btn btn-outline-primary" id="submit" onclick="validate1()">Submit</button>
+                        <button class="mt-4 mb-4 mx-3 btn btn-outline-warning">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.905283547187!2d72.85031371485798!3d21.235604185886693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f27ee8159e3%3A0xf6defb4d03e81080!2sSutex%20Bank%20College%20of%20Computer%20Applications%20%26%20Science!5e0!3m2!1sen!2sin!4v1677826490241!5m2!1sen!2sin"
+                        width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 col-12">
+                    <h1 class="font1 mb-5" >About us</h1>
+                    <p> <i class="fa-solid fa-location-dot"></i><b>Company Address:</b><br> 1234 North Avenue Luke Lane, South , IN 360001, United States </p><br>
+                    <p><i class="fa-solid fa-phone"></i><b>Contact us:</b><br>(303) 555-0105</p><br>
+                    <p> <i class="fa-solid fa-envelope"></i><b>Email:</b><br> cargo.help@gmail.com</p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="foot">
+
+        <p>© 2022 CargoTon. All Rights Reserved.</p>
+    </div>
+    <script>
+        let navlinks = document.getElementById("navlinks")
+        function showMenu() {
+            navlinks.style.right = "0"
+        }
+        function hideMenu() {
+            navlinks.style.right = "-220px"
+        }
+
+        function validate1() {
+            var x = document.getElementById('n1').value;
+
+            console.log(x);
+            if (x == "") {
+                swal({
+                    text: "please enter name",
+                });
+                return;
+            }
+            else {
+                swal({
+                    text: "form submitted",
+                });
+            }
+        }
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+
+            duration: "1300"
+        });
+    </script>
+     <script src="./jsonscript1.js"></script>
+</body>
+
+
+
+</html>

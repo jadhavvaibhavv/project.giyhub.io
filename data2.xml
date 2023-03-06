@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<courier>
+<services>
+   <link>image/1.svg</link>
+   <name>Courier Shipping</name>
+</services>
+<services>
+   <link>image/2.svg</link>
+   <name>Project Logistics</name>
+</services>
+<services>
+   <link>image/4.svg</link>
+   <name>Drone Freight</name>
+</services>
+<services>
+   <link>image/5.svg</link>
+   <name>Track and Trace</name>
+</services>
+
+</courier>

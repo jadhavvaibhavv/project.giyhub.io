@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+<courier>
+<services>
+   <link>image/3.svg</link>
+   <name>Ware Housing</name>
+</services>
+<services>
+   <link>image/6.svg</link>
+   <name>Ground Freight</name>
+</services>
+<services>
+   <link>image/7.svg</link>
+   <name>Sea Freight</name>
+</services>
+<services>
+   <link>image/8.svg</link>
+   <name>Air Freight</name>
+</services>
+
+</courier>
